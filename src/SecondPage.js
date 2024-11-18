@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { ShoppingCart, Leaf } from 'lucide-react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import SecondPage from './SecondPage';
-import HomePage from './HomePage';
+import { Leaf } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const products = [
   { id: 1, name: 'Organic Kale', price: 3.99, image: '1.png', vegan: true, ecological: true },
